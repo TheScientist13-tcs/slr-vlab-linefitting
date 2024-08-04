@@ -35,7 +35,7 @@ def main():
 
         st.markdown("######")
         st.markdown(
-            "#### TASK: Experiment on the values of the 'Intercept' and the 'Slope' that would give the lowest 'RSS' value"
+            "##### Your Task: Experiment on the values of the 'Intercept' and the 'Slope' that would give the lowest 'RSS' value"
         )
         col1, col_, col2 = st.columns([0.2, 0.05, 0.7])
 
