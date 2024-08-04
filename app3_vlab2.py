@@ -25,7 +25,7 @@ def main():
             page_title="Simple Linear Regression", layout="wide", page_icon="📉"
         )
         st.title(":gray-background[Virtual Lab: Fitting a Line to the Data]")
-        st.markdown("##### By: Dharyll Prince M. Abellana | Assistant Professor of Computer Science | University of the Philippines Cebu")
+        st.text("By: Dharyll Prince M. Abellana | Assistant Professor of Computer Science | University of the Philippines Cebu")
 
         # Load the data
 
