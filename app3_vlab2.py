@@ -33,7 +33,7 @@ def main():
         dataset = load_data(file_name)
         dataset.columns = map(str.capitalize, dataset.columns)
 
-        st.markdown("####")
+        st.markdown("######")
         st.markdown(
             "### Experiment on the values of the 'Intercept' and the 'Slope' that would give the lowest 'RSS' value"
         )
