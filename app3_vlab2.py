@@ -25,8 +25,8 @@ def main():
         st.title(":gray-background[Virtual Lab: Fitting a Line to the Data]")
         # Load the data
 
-        address = "./datasets/income.csv"
-        dataset = load_data(address)
+        file_name = "income.csv"
+        dataset = load_data(file_name)
         dataset.columns = map(str.capitalize, dataset.columns)
 
         st.markdown(
